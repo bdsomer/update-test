@@ -1,6 +1,6 @@
 {
 	"name": "update-test",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "See if you can update your dependencies without breaking tests",
 	"main": "cli.js",
 	"bin": {

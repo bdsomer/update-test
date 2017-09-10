@@ -64,12 +64,12 @@ async function main() {
 		try {
 			await spawnCp(testScriptCmd, testScriptArgs)
 			passed.push(dependency)
-			log('Info', 'Tests passed! Rolling back...')
+			log('Info', 'Tests passed!')
 		} catch (e) {
 			failed.push(dependency)
 			log('Info', 'Tests failed! Rolling back...')
+			await spawnCp('npm', ['i', dependency + '@' + depInfo(i).version])
 		}
-		await spawnCp('npm', ['i', dependency + '@' + depInfo(i).version])
 	}
 
 	console.log('\nTests passed for ' + passed.join(', '))
