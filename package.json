@@ -1,0 +1,32 @@
+{
+	"name": "update-test",
+	"version": "1.0.0",
+	"description": "See if you can update your dependencies without breaking tests",
+	"main": "cli.js",
+	"bin": {
+		"update-test": "./cli.js"
+	},
+	"scripts": {
+		"test": "echo It works, trust me."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bdsomer/update-test.git"
+	},
+	"keywords": [
+		"update",
+		"test",
+		"updating",
+		"up",
+		"to",
+		"date",
+		"testing"
+	],
+	"author": "Bennett Somerville",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bdsomer/update-test/issues"
+	},
+	"homepage": "https://github.com/bdsomer/update-test#readme",
+	"dependencies": {}
+}
