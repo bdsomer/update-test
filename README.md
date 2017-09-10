@@ -1,5 +1,5 @@
 # update-test
-> See if your dependencies can be updated without breaking the tests.
+> See if you can update your dependencies without breaking tests
 
 ## Installation
 ```
